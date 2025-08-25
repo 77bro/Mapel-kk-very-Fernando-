@@ -1,57 +1,46 @@
-body{
-	font-family: monospace;
-	font-size: 13pt;
+ {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #1e3c72, #2a5298);
+  color: #fff;
+  margin: 0;
+  padding: 0;
 }
- 
-th{
-	text-align: left;
+
+.container {
+  max-width: 700px;
+  margin: 50px auto;
+  background: rgba(255, 255, 255, 0.1);
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
- 
-img{
-	width: 100%;
-	margin-bottom: 10px;
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #00d9ff;
 }
- 
-.kotak{
-	border: 1px solid black;
-	width: 60%;
-	margin: 10px auto;
-	padding: 20px;
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 20px;
 }
- 
-.judul{
-	text-align: center;
-        background: #5160c1;
+
+.profile img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 3px solid #0095ff;
+  object-fit: cover;
 }
- 
-.blok{
-	overflow: hidden;
+
+.profile ul {
+  list-style: none;
+  padding: 0;
 }
- 
-.kiri{
-	width: 20%;
-	float: left;
-}
- 
-.kanan{
-	width: 70%;
-	padding:0px 20px;	
-	float: left;
-}
- 
-@media only screen and (max-width: 768px) {
-	.kotak{
-		width: 100%;
-		padding: 0px;
-		border: none;
-	}
-	
-	.kiri{
-		width: 100%;
-	}
- 
-	.kanan{
-		width: 100%;
-		padding: 0;
-	}
+
+.profile li {
+  margin: 8px 0;
+  font-size: 18px;
 }
